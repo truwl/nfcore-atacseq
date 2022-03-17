@@ -1,0 +1,18 @@
+name: nf.core atacseq
+identifier: WF_6686c9.0e
+description: ATAC-seq peak-calling, QC and differential analysis pipeline
+softwareVersion:
+  versionName: 1.2.1
+metadataStatus: Released
+workflowStatus: Released
+workflowFile: atacseq.wdl
+repoName: nfcore-atacseq
+gitTag: master
+inputsTemplate: inputs.json
+executable: true
+current: true
+codeRepository:
+  URL: https://github.com/truwl/nfcore-atacseq/
+WebSite:
+- URL: https://github.com/nf-core/atacseq
+  name: nf-core/atacseq
